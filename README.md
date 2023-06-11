@@ -89,6 +89,38 @@ Dari Modelling data yang telah di lakukan, Karena hasil dari precision nya kuran
 
 ![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/77001eb6-f723-46d6-80ef-aa75dccceefb)
 
+Dari data yang sudah di Feature Selection yaitu walaupun hasil dari precision sudah membaik tetapi modelnya masih overfit, maka kita akan coba mendrop beberapa fitur yg tidak terlalu penting dengan cara melihat feature importance-nya.
+
+9. Cek Feature Importancenya : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/c95dd132-b5d7-4209-81e1-991c95b67740)
+
+10. Melakukan drop fitur yg tidak terlalu penting : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/506e1a2e-18dc-44a6-8716-fdd9a90bf58f)
+
+11. Cek Fitur : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/4a8e58a8-07f9-47cb-aea3-0d5297869cb8)
+
+12. Melakukan cek korelasi features untuk melihat apakah ada fitur yg redundant
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/35ef19c9-ec2e-4e01-b290-2877ce8f3ca4)
+
+13. Membagi data Train dan Test 70 : 30 : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/0a7cba7c-519c-4c06-ada8-b9a713b73b6e)
+
+14. Split X dan Y 
+
+15. Melakukan data Train SMOTE : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/59bf202c-cd70-4900-a2d6-60b37cba44fe)
+
+16. Pint data Train dan Test : 
+
+![image](https://github.com/Astryon/Stage3_Final_Project/assets/68798868/314f6090-0f85-49e8-b26d-03247e353dc5)
+
 
 
 
